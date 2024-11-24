@@ -10,6 +10,15 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '0.75rem',
+          md: '1.5rem',
+          lg: '3rem',
+          '2xl': '6rem',
+        },
+      },
       colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
@@ -57,15 +66,7 @@ export default {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: '0.75rem',
-          md: '1.5rem',
-          lg: '3rem',
-          '2xl': '6rem',
-        },
-      },
+      
     },
   },
   plugins: [tailwindcssAnimate],

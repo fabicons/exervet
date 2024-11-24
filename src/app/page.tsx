@@ -1,10 +1,14 @@
+import Hero from '@/components/hero'
+import Lake from '@/components/lake'
 import PolygonCarousel from '@/components/polygon-carousel'
 
 export default function Home() {
   return (
-    <div className=" p-8 pb-20 container sm:py-20">
+    <div className="container p-8 pb-20 sm:py-20">
       <main className="">
-        <PolygonCarousel></PolygonCarousel>
+        <Hero />
+        <PolygonCarousel />
+        <Lake />
       </main>
     </div>
   )
