@@ -1,0 +1,10 @@
+{
+  "LocaleSwitcher": {
+    "en": "English",
+    "es": "Español",
+    "label": "Language"
+  },
+  "HomePage": {
+    "title": "Hello world!"
+  }
+}
