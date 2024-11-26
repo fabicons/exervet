@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss'
 import tailwindcssAnimate from 'tailwindcss-animate'
+import tailwindAnimated from 'tailwindcss-animated'
 
 export default {
   darkMode: ['class'],
@@ -20,6 +21,12 @@ export default {
         },
       },
       colors: {
+        pastel: {
+          blue: 'hsl(196 50% 44%)',
+          pink: 'hsl(316 44% 80%)',
+          green: 'hsl(171 41% 57%)',
+          yellow: 'hsl(49 60% 64%)',
+        },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
@@ -66,8 +73,7 @@ export default {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
-      
     },
   },
-  plugins: [tailwindcssAnimate],
+  plugins: [tailwindcssAnimate, tailwindAnimated],
 } satisfies Config

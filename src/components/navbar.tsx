@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="justify-between border">
       <div>
-        <Image src={logo} height={200} width={200} alt="logo exervet"></Image>
+        <Image src={logo} height={200} width={200} alt="logo exervet" className='dark:invert'></Image>
       </div>
       <ModeToggle />
       <LocaleSwitcher />
